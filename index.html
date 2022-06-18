@@ -36,32 +36,79 @@
 <!-- link rel="shortcut icon" type="image/x-icon" href="/tema/favicon.ico" -->
 
 <!-- end custom head snippets -->
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"
+      integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"
+      integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"
+      crossorigin="anonymous"
+      onload="renderMathInElement(document.body);"
+    ></script>
+
+    <script
+      defer="defer"
+      src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+      integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"
+      crossorigin="anonymous"
+      onload='renderMathInElement(document.body,
+        {delimiters:[ {left: "$$", right: "$$" , display: true}, 
+                      {left: "$" , right: "$" , display: false}, 
+                      {left: "\\(" , right: "\\)" , display: false}, 
+                      {left: "\\[" , right: "\\]" , display: true} 
+                      ]
+        });'
+    ></script>
+
+</head>
 
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1 class="header">tema</h1>
+        <h1 class="header">Ficha de Avaliação</h1>
         <p class="header"></p>
 
         <ul>
           
-          <li><a class="buttons github" href="https://github.com/JoanaBiscaia/tema">View On GitHub</a></li>
+          <li><a class="buttons github" href="https://github.com/JoanaBiscaia/tema">Formulario Google</a></li>
         </ul>
 
         
-          <p class="header">This project is maintained by <a class="header name" href="https://github.com/JoanaBiscaia">JoanaBiscaia</a></p>
+          <p class="header">Este projecto foi realizado por <a class="header name" href="https://github.com/JoanaBiscaia">JoanaBiscaia</a></p>
         
 
         
       </header>
 
       <section>
-        <h2 id="welcome-to-github-pages">Welcome to GitHub Pages</h2>
+        <h2 id="welcome-to-github-pages">Questão 1 </h2>
 
-<p>You can use the <a href="https://github.com/JoanaBiscaia/tema/edit/gh-pages/index.md">editor on GitHub</a> to maintain and preview the content for your website in Markdown files.</p>
+Considere, num referencial o.n. $Oxyz$, um paralelepípedo retângulo $ [BCDEFGH]$ de bases $[ABCD]$ e $[FGHE]$ , sendo  $[AF]$ , $[BG]$ , $[CH]$ e $[DE]$ as arestas laterais deste paralelepípedo.
+</br>
+Na base $[ABCD]$ , o vértice $A$ pertence ao semieixo positivo $Ox$, o vértice $B$ pertence ao semieixo positivo $Oy$, os vértices $C$ e $D$ têm cota positiva, e o segmento de reta $[BD]$ é uma diagonal. </br>    </br>   
+</br>   
+Sabe-se ainda que:</li>
+  
+<p style="margin-left: 40px;">$E (7, 2,15)$ e $G(6,10,13)$
+</p>   
+<p style="margin-left: 40px;">a reta $EF$ é definida pela equação $(x,y,z)=(1,-2,19)+k(-3,-2,2), k \in \R$
+</p>
+Qual da equaçoes seguintes define uma reta perpendicular à reta $EF$ e que passa no ponto $E$?
 
-<p>Whenever you commit to this repository, GitHub Pages will run <a href="https://jekyllrb.com/">Jekyll</a> to rebuild the pages in your site, from the content in your Markdown files.</p>
+<p style="margin-left: 40px;">
+  <strong>(A)</strong> $(x,y,z)=(7,-3,3)+k(2,-3,0), k \in \R$
+  </br> <strong>(B)</strong> $(x,y,z)=(7,2,15)+k(0,3,-3), k \in \R$
+  </br> <strong>(C)</strong> $(x,y,z)=(7,-10,3)+k(0,3,3), k \in \R$
+  </br> <strong>(D)</strong> $(x,y,z)=(7,2,15)+k(2,0,-3), k \in \R$
+</p>   
 
 <h3 id="markdown">Markdown</h3>
 
